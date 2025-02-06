@@ -16,8 +16,8 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              {/* Replaced GraduationCap icon with your custom logo */}
-              <img src="/logo.png" alt="SnapStudy Logo" className="w-1000 h-10" />
+              {/* Correct logo path */}
+              <img src={process.env.PUBLIC_URL + "/logo.png"} alt="SnapStudy Logo" className="w-10 h-10" />
               <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
                 SnapStudy
               </h1>
